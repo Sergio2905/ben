@@ -1364,6 +1364,10 @@ body._lock {
     flex-direction: column;
   }
 
+  .system__image.active {
+    animation: fadeIn 0.6s ease forwards;
+  }
+
   .footer__left {
     flex: 1 1 40%;
   }
