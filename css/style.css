@@ -147,6 +147,18 @@ body._lock {
   background: var(--black);
 }
 
+.wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("../img/main/decor2.webp") center/contain no-repeat;
+  width: 780px;
+  height: 780px;
+  transform: translate(20%, -20%);
+  border-radius: 50%;
+}
+
 .container {
   max-width: 1280px;
   width: 100%;
@@ -2610,6 +2622,10 @@ body._lock {
 
   .menu__socials {
     display: flex;
+  }
+
+  .main__body {
+    min-height: unset;
   }
 
   .main__dialog_left {
