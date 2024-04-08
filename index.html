@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
-    <title>Project</title>
+    <title>Ben</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preload" href="fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="fonts/PaytoneOne-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.min.css?_v=20240405143409">
+    <link rel="stylesheet" href="css/style.min.css?_v=20240408131315">
 </head>
 
 <body>
@@ -201,7 +201,11 @@
                                 </div>
                             </div>
                             <div class="about__image lazy" data-move="about-image, 768">
-                                <picture><source srcset="img/about/image.webp" type="image/webp"><img src="img/about/image.png" alt="Image"></picture>
+                                <picture>
+                                    <source data-srcset="img/about/image.webp" srcset="img/plug.png"
+                                        type="image/webp">
+                                    <img data-src="img/about/image.png" src="img/plug.png" alt="Image">
+                                </picture>
                                 <svg>
                                     <use href="img/icons/icons.svg#line_about"></use>
                                 </svg>
@@ -211,11 +215,14 @@
                 </div>
             </div>
 
-            <div class="tagline">
+            <div class="tagline" data-trigger>
                 <div class="tagline__container container">
                     <div class="tagline__body">
-                        <div class="tagline__image animate">
-                            <picture><source srcset="img/tagline/image.webp" type="image/webp"><img src="img/tagline/image.png" alt="Image"></picture>
+                        <div class="tagline__image lazy animate">
+                            <picture>
+                                <source data-srcset="img/tagline/image.webp" srcset="img/plug.png" type="image/webp">
+                                <img data-src="img/tagline/image.png" src="img/plug.png" alt="Image">
+                            </picture>
                         </div>
                         <div class="tagline__info animate">
                             <p class="tagline__intro intro">tagline</p>
@@ -243,7 +250,7 @@
                             <ul class="system__list system__list_left animate">
                                 <li class="system__item">
                                     <div class="system__icon">
-                                        <img src="img/system/icon1.svg" alt="Icon">
+                                        <img src="img/system/icon1.svg" alt="Icon" width="50" height="40">
                                     </div>
                                     <div class="system__text">
                                         Consectetur sit nisi sit viverra iaculis ac. Ut eu sed
@@ -251,7 +258,7 @@
                                 </li>
                                 <li class="system__item">
                                     <div class="system__icon">
-                                        <img src="img/system/icon2.svg" alt="Icon">
+                                        <img src="img/system/icon2.svg" alt="Icon" width="50" height="40">
                                     </div>
                                     <div class="system__text">
                                         In vitae facilisis. Praesent amet massa elit vitae sed
@@ -259,7 +266,7 @@
                                 </li>
                                 <li class="system__item">
                                     <div class="system__icon">
-                                        <img src="img/system/icon3.svg" alt="Icon">
+                                        <img src="img/system/icon3.svg" alt="Icon" width="50" height="40">
                                     </div>
                                     <div class="system__text">
                                         Metus mauris egestas quis id lectus varius viverra amet
@@ -267,20 +274,24 @@
                                 </li>
                                 <li class="system__item">
                                     <div class="system__icon">
-                                        <img src="img/system/icon4.svg" alt="Icon">
+                                        <img src="img/system/icon4.svg" alt="Icon" width="50" height="40">
                                     </div>
                                     <div class="system__text">
                                         Eu neque non vestibulum
                                     </div>
                                 </li>
                             </ul>
-                            <div class="system__image animate">
-                                <picture><source srcset="img/system/image.webp" type="image/webp"><img src="img/system/image.png" alt="Image"></picture>
+                            <div class="system__image lazy animate">
+                                <picture>
+                                    <source data-srcset="img/system/image.webp" srcset="img/plug.png"
+                                        type="image/webp">
+                                    <img data-src="img/system/image.png" src="img/plug.png" alt="Image">
+                                </picture>
                             </div>
                             <ul class="system__list system__list_right animate">
                                 <li class="system__item">
                                     <div class="system__icon">
-                                        <img src="img/system/icon5.svg" alt="Icon">
+                                        <img src="img/system/icon5.svg" alt="Icon" width="50" height="40">
                                     </div>
                                     <div class="system__text">
                                         Consectetur sit nisi sit viverra iaculis ac. Ut eu sed
@@ -288,7 +299,7 @@
                                 </li>
                                 <li class="system__item">
                                     <div class="system__icon">
-                                        <img src="img/system/icon6.svg" alt="Icon">
+                                        <img src="img/system/icon6.svg" alt="Icon" width="50" height="40">
                                     </div>
                                     <div class="system__text">
                                         In vitae facilisis. Praesent amet massa elit vitae sed
@@ -296,7 +307,7 @@
                                 </li>
                                 <li class="system__item">
                                     <div class="system__icon">
-                                        <img src="img/system/icon7.svg" alt="Icon">
+                                        <img src="img/system/icon7.svg" alt="Icon" width="50" height="40">
                                     </div>
                                     <div class="system__text">
                                         Metus mauris egestas quis id lectus varius viverra amet
@@ -304,7 +315,7 @@
                                 </li>
                                 <li class="system__item">
                                     <div class="system__icon">
-                                        <img src="img/system/icon8.svg" alt="Icon">
+                                        <img src="img/system/icon8.svg" alt="Icon" width="50" height="40">
                                     </div>
                                     <div class="system__text">
                                         Eu neque non vestibulum
@@ -315,6 +326,392 @@
                     </div>
                 </div>
             </div>
+
+            <div class="hopping">
+                <div class="hopping__container container">
+                    <div class="hopping__body">
+                        <p class="hopping__intro intro animate">Related product</p>
+                        <h2 class="hopping__title title animate">Hopping Ben</h2>
+                        <div class="hopping__content">
+                            <div class="hopping__info">
+                                <ul class="hopping__list animate">
+                                    <li class="hopping__item">
+                                        <div class="hopping__icon">
+                                            <picture><source srcset="img/hopping/icon1.webp" type="image/webp"><img src="img/hopping/icon1.png" alt="Icon" width="50" width="50"></picture>
+                                        </div>
+                                        <div class="hopping__item-info">
+                                            <h3 class="hopping__name">Title</h3>
+                                            <p class="hopping__text">
+                                                Metus mauris egestas quis id lectus varius viverra amet nunc. Eu
+                                                neque non vestibulum porta. Non sed urna facilisis leo condimentum
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="hopping__item">
+                                        <div class="hopping__icon">
+                                            <picture><source srcset="img/hopping/icon2.webp" type="image/webp"><img src="img/hopping/icon2.png" alt="Icon" width="50" width="50"></picture>
+                                        </div>
+                                        <div class="hopping__item-info">
+                                            <h3 class="hopping__name">Title</h3>
+                                            <p class="hopping__text">
+                                                Metus mauris egestas quis id lectus varius viverra amet nunc. Eu
+                                                neque non vestibulum porta. Non sed urna facilisis leo condimentum
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="hopping__item">
+                                        <div class="hopping__icon">
+                                            <picture><source srcset="img/hopping/icon3.webp" type="image/webp"><img src="img/hopping/icon3.png" alt="Icon" width="50" width="50"></picture>
+                                        </div>
+                                        <div class="hopping__item-info">
+                                            <h3 class="hopping__name">Title</h3>
+                                            <p class="hopping__text">
+                                                Metus mauris egestas quis id lectus varius viverra amet nunc. Eu
+                                                neque non vestibulum porta. Non sed urna facilisis leo condimentum
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="hopping__btns animate">
+                                    <a href="#" class="hopping__btn" title="Google Play">
+                                        <img src="img/hopping/google_play.svg" alt="Google Play">
+                                    </a>
+                                    <a href="#" class="hopping__btn" title="App Store">
+                                        <img src="img/hopping/app_store.svg" alt="App Store">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="hopping__image lazy animate">
+                                <div class="hopping__image-wrapper">
+                                    <picture>
+                                        <source data-srcset="img/hopping/image.webp" srcset="img/plug.png"
+                                            type="image/webp">
+                                        <img data-src="img/hopping/image.png" src="img/plug.png" alt="Image">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="studio">
+                <div class="studio__container container">
+                    <div class="studio__body">
+                        <p class="studio__intro intro animate">Create your character</p>
+                        <h2 class="studio__title title animate">Ben’s Studio</h2>
+                        <div class="studio__content">
+                            <div class="studio__info animate">
+                                <div class="studio__accent">
+                                    Consectetur sit nisi sit viverra iaculis ac. Ut eu sed in vitae facilisis. Praesent
+                                    amet massa elit vitae sed sed sit luctus ullamcorper
+                                </div>
+                                <div class="studio__text">
+                                    <p>
+                                        Metus mauris egestas quis id lectus varius viverra amet nunc.
+                                        Eu neque non vestibulum porta. Non sed urna facilisis leo condimentum
+                                        sed. Ac integer senectus purus vitae aliquam neque vulputate lobortis.
+                                    </p>
+                                    <p>
+                                        Integer facilisis adipiscing enim quis nunc dignissim egestas. Sollicitudin
+                                        condimentum nulla mauris diam vel morbi id sapien. Netus mi viverra fermentum
+                                        libero
+                                        mus.Consectetur sit nisi sit viverra iaculis ac.
+                                    </p>
+                                </div>
+                                <a href="#" class="studio__btn btn_red animate">Call to action Button</a>
+                            </div>
+                            <div class="studio__graph lazy animate">
+                                <div class="studio__image">
+                                    <picture>
+                                        <source data-srcset="img/studio/image.webp" srcset="img/plug.png"
+                                            type="image/webp">
+                                        <img data-src="img/studio/image.png" src="img/plug.png" alt="Image">
+                                    </picture>
+                                </div>
+                                <div class="studio__stars">
+                                    <picture>
+                                        <source data-srcset="img/studio/stars.webp" srcset="img/plug.png"
+                                            type="image/webp">
+                                        <img data-src="img/studio/stars.png" src="img/plug.png" alt="Image">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stacking">
+                <div class="stacking__container container">
+                    <div class="stacking__body">
+                        <p class="stacking__intro intro animate">Additional title</p>
+                        <h2 class="stacking__title title animate">Stacking</h2>
+                        <div class="stacking__content">
+                            <div class="stacking__info lazy">
+                                <ul class="stacking__list animate">
+                                    <li class="stacking__item">
+                                        <div class="stacking__icon">
+                                            <picture>
+                                                <source data-srcset="img/stacking/icon1.webp" srcset="img/plug.png"
+                                                    type="image/webp">
+                                                <img data-src="img/stacking/icon1.png" src="img/plug.png" alt="Image">
+                                            </picture>
+                                        </div>
+                                        <div class="stacking__item-info">
+                                            <h3 class="stacking__name">Title</h3>
+                                            <p class="stacking__text">
+                                                Metus mauris egestas quis id lectus varius viverra amet nunc. Eu
+                                                neque non vestibulum porta
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="stacking__item">
+                                        <div class="stacking__icon">
+                                            <picture>
+                                                <source data-srcset="img/stacking/icon2.webp" srcset="img/plug.png"
+                                                    type="image/webp">
+                                                <img data-src="img/stacking/icon2.png" src="img/plug.png" alt="Image">
+                                            </picture>
+                                        </div>
+                                        <div class="stacking__item-info">
+                                            <h3 class="stacking__name">Title</h3>
+                                            <p class="stacking__text">
+                                                Metus mauris egestas quis id lectus varius viverra amet nunc. Eu
+                                                neque non vestibulum porta
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="stacking__item">
+                                        <div class="stacking__icon">
+                                            <picture>
+                                                <source data-srcset="img/stacking/icon3.webp" srcset="img/plug.png"
+                                                    type="image/webp">
+                                                <img data-src="img/stacking/icon3.png" src="img/plug.png" alt="Image">
+                                            </picture>
+                                        </div>
+                                        <div class="stacking__item-info">
+                                            <h3 class="stacking__name">Title</h3>
+                                            <p class="stacking__text">
+                                                Metus mauris egestas quis id lectus varius viverra amet nunc. Eu
+                                                neque non vestibulum porta
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="stacking__item">
+                                        <div class="stacking__icon">
+                                            <picture>
+                                                <source data-srcset="img/stacking/icon4.webp" srcset="img/plug.png"
+                                                    type="image/webp">
+                                                <img data-src="img/stacking/icon4.png" src="img/plug.png" alt="Image">
+                                            </picture>
+                                        </div>
+                                        <div class="stacking__item-info">
+                                            <h3 class="stacking__name">Title</h3>
+                                            <p class="stacking__text">
+                                                Metus mauris egestas quis id lectus varius viverra amet nunc. Eu
+                                                neque non vestibulum porta
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="stacking__graph lazy animate">
+                                <div class="stacking__image">
+                                    <picture>
+                                        <source data-srcset="img/stacking/image.webp" srcset="img/plug.png"
+                                            type="image/webp">
+                                        <img data-src="img/stacking/image.png" src="img/plug.png" alt="Image">
+                                    </picture>
+                                    <svg>
+                                        <use href="img/icons/icons.svg#line_stacking"></use>
+                                    </svg>
+                                </div>
+                                <div class="stacking__heart">
+                                    <picture>
+                                        <source data-srcset="img/stacking/heart.webp" srcset="img/plug.png"
+                                            type="image/webp">
+                                        <img data-src="img/stacking/heart.png" src="img/plug.png" alt="Image">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="stacking__btn animate">Call to action Button</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="start">
+                <div class="start__container container">
+                    <div class="start__body">
+                        <p class="start__intro intro animate">roadmap</p>
+                        <h2 class="start__title title animate">Getting started</h2>
+                        <div class="start__slider animate">
+                            <div class="start__wrapper swiper-wrapper">
+                                <div class="start__slide swiper-slide">
+                                    <div class="start__item">
+                                        <div class="start__icon">
+                                            <img src="img/start/icon1.svg" alt="Icon" width="42" height="42">
+                                            <div class="start__number">01</div>
+                                        </div>
+                                        <h3 class="start__name">First launch</h3>
+                                        <p class="start__text">
+                                            Metus mauris egestas quis id lectus varius viverra amet nunc. Eu neque non
+                                            vestibulum porta.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="start__slide swiper-slide">
+                                    <div class="start__item">
+                                        <div class="start__icon">
+                                            <img src="img/start/icon2.svg" alt="Icon" width="42" height="42">
+                                            <div class="start__number">01</div>
+                                        </div>
+                                        <h3 class="start__name">Second Phaze</h3>
+                                        <p class="start__text">
+                                            Metus mauris egestas quis id lectus varius viverra amet nunc. Eu neque non
+                                            vestibulum porta.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="start__slide swiper-slide">
+                                    <div class="start__item">
+                                        <div class="start__icon">
+                                            <img src="img/start/icon3.svg" alt="Icon" width="42" height="42">
+                                            <div class="start__number">01</div>
+                                        </div>
+                                        <h3 class="start__name">Third Phaze</h3>
+                                        <p class="start__text">
+                                            Metus mauris egestas quis id lectus varius viverra amet nunc. Eu neque non
+                                            vestibulum porta.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="start__slide swiper-slide">
+                                    <div class="start__item">
+                                        <div class="start__icon">
+                                            <img src="img/start/icon4.svg" alt="Icon" width="42" height="42">
+                                            <div class="start__number">01</div>
+                                        </div>
+                                        <h3 class="start__name">First launch</h3>
+                                        <p class="start__text">
+                                            Metus mauris egestas quis id lectus varius viverra amet nunc. Eu neque non
+                                            vestibulum porta.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="start__btn btn_red animate">Call to action Button</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tokenomikcs">
+                <div class="tokenomikcs__container container">
+                    <div class="tokenomikcs__body">
+                        <p class="tokenomikcs__intro intro animate">Ready-made characters</p>
+                        <h2 class="tokenomikcs__title title animate">Tokenomikcs</h2>
+                        <div class="tokenomikcs__grid">
+                            <div class="tokenomikcs__item animate">
+                                <div class="tokenomikcs__info">
+                                    Total Supply: <span>10,000,000,000,000</span>
+                                </div>
+                                <div class="tokenomikcs__icon lazy">
+                                    <picture>
+                                        <source data-srcset="img/tokenomikcs/icon1.webp" srcset="img/plug.png"
+                                            type="image/webp">
+                                        <img data-src="img/tokenomikcs/icon1.png" src="img/plug.png" alt="Image">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="tokenomikcs__item animate">
+                                <div class="tokenomikcs__info">
+                                    Unlock: <span>75.7%</span>
+                                </div>
+                                <div class="tokenomikcs__icon lazy">
+                                    <picture>
+                                        <source data-srcset="img/tokenomikcs/icon2.webp" srcset="img/plug.png"
+                                            type="image/webp">
+                                        <img data-src="img/tokenomikcs/icon2.png" src="img/plug.png" alt="Image">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="tokenomikcs__item animate">
+                                <div class="tokenomikcs__info">
+                                    Lock <span>15.3%</span>
+                                </div>
+                                <div class="tokenomikcs__icon lazy">
+                                    <picture>
+                                        <source data-srcset="img/tokenomikcs/icon3.webp" srcset="img/plug.png"
+                                            type="image/webp">
+                                        <img data-src="img/tokenomikcs/icon3.png" src="img/plug.png" alt="Image">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="tokenomikcs__item tokenomikcs__item_xl animate">
+                                <div class="tokenomikcs__info">
+                                    $Ben: <span>570.000+</span>
+                                </div>
+                                <div class="tokenomikcs__image lazy">
+                                    <picture>
+                                        <source data-srcset="img/tokenomikcs/image1.webp" srcset="img/plug.png"
+                                            type="image/webp">
+                                        <img data-src="img/tokenomikcs/image1.png" src="img/plug.png" alt="Image">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="tokenomikcs__item tokenomikcs__item_xxl animate">
+                                <div class="tokenomikcs__bg lazy">
+                                    <picture>
+                                        <source data-srcset="img/tokenomikcs/bg.webp" srcset="img/plug.png"
+                                            type="image/webp">
+                                        <img data-src="img/tokenomikcs/bg.png" src="img/plug.png" alt="Image">
+                                    </picture>
+                                </div>
+                                <div class="tokenomikcs__info">
+                                    Additional title <span>Ben the Dog</span>
+                                </div>
+                                <div class="tokenomikcs__image lazy">
+                                    <picture>
+                                        <source data-srcset="img/tokenomikcs/image2.webp" srcset="img/plug.png"
+                                            type="image/webp">
+                                        <img data-src="img/tokenomikcs/image2.png" src="img/plug.png" alt="Image">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tagline tagline_revers">
+                <div class="tagline__container container">
+                    <div class="tagline__body">
+                        <div class="tagline__image lazy animate">
+                            <picture>
+                                <source data-srcset="img/tagline/image2.webp" srcset="img/plug.png" type="image/webp">
+                                <img data-src="img/tagline/image2.png" src="img/plug.png" alt="Image">
+                            </picture>
+                            <svg>
+                                <use href="img/icons/icons.svg#line_tagline"></use>
+                            </svg>
+                        </div>
+                        <div class="tagline__info animate">
+                            <p class="tagline__intro intro">tagline</p>
+                            <h2 class="tagline__title title">Ac integer senectus purus vitae aliquam neque vulputate
+                                lobortis</h2>
+                            <p class="tagline__text">Consectetur sit nisi sit viverra iaculis ac. Ut eu sed </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="btn_up" title="To top">
+                <svg>
+                    <use href="img/icons/icons.svg#arrow"></use>
+                </svg>
+            </button>
 
         </div>
 
@@ -402,7 +799,7 @@
 </footer>
     </div>
 
-    <script src="js/app.min.js?_v=20240405143409" defer></script>
+    <script src="js/app.min.js?_v=20240408131315" defer></script>
 </body>
 
 </html>
