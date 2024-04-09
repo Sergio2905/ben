@@ -870,6 +870,7 @@ body._lock {
 
 .about__image img {
   max-width: 100%;
+  height: auto;
 }
 
 @keyframes draw {
@@ -1012,6 +1013,7 @@ body._lock {
 
 .tagline__image img {
   max-width: 100%;
+  height: auto;
   transition: all 1s ease;
   transform: translate(-100%, 0);
   opacity: 0;
@@ -1194,6 +1196,7 @@ body._lock {
 
 .system__image img {
   max-width: 100%;
+  height: auto;
 }
 
 .hopping__body {
@@ -1347,6 +1350,7 @@ body._lock {
 
 .hopping__image-wrapper img {
   max-width: 100%;
+  height: auto;
 }
 
 @keyframes vibro {
@@ -1518,6 +1522,7 @@ body._lock {
 
 .studio__image img {
   max-width: 100%;
+  height: auto;
 }
 
 .studio__stars {
@@ -1532,6 +1537,7 @@ body._lock {
 
 .studio__stars img {
   max-width: 100%;
+  height: auto;
 }
 
 .stacking {
@@ -1547,6 +1553,7 @@ body._lock {
   width: 810px;
   height: 1368px;
   background: url("../img/tagline/decor2.webp") center right/contain no-repeat;
+  pointer-events: none;
 }
 
 .stacking__container {
@@ -1683,6 +1690,7 @@ body._lock {
 
 .stacking__image img {
   max-width: 100%;
+  height: auto;
   transition: all 0.5s ease;
   transform: scale(0);
 }
@@ -1717,6 +1725,7 @@ body._lock {
 
 .stacking__heart img {
   max-width: 100%;
+  height: auto;
 }
 
 .stacking__btn {
@@ -2002,6 +2011,7 @@ body._lock {
 
 .tokenomikcs__image img {
   max-width: 100%;
+  height: auto;
 }
 
 .tokenomikcs__bg {
