@@ -716,6 +716,7 @@ body._lock {
   width: 869px;
   height: 1897px;
   background: url("../img/about/decor.webp") center right/contain no-repeat;
+  pointer-events: none;
 }
 
 .about__body {
